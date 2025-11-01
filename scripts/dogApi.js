@@ -8,7 +8,7 @@ function apiApp() {
       try {
         // STEP 1: Look at https://dog.ceo/api/breeds/image/random/3
         // STEP 2: Add URL below
-        const url = "https://dog.ceo/api/breeds/image/random/3"
+        const Url = "https://dog.ceo/api/breeds/image/random/3"
         const res = await axios.get(Url);
         // STEP 3: 
         console.log(res.data)
